@@ -15,31 +15,4 @@ _start: ; this is a label "_start:" needs to be in a program
         mov rax, 60 ; 60 = exit
         mov rdi, 0 ; load 0 into the rdi register to quit with no error
         syscall
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
